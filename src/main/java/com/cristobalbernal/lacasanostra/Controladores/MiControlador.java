@@ -1,4 +1,4 @@
-package com.joanmoncho.tiendavintage.Controladores;
+package com.cristobalbernal.lacasanostra.Controladores;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,8 +13,13 @@ public class MiControlador {
     public String carta(){
         return "Carta/bienvenidaCarta";
     }
-    @GetMapping("/mostrarCarta")
-    public String mostrarCarta(){
-        return "Carta/carta";
+    @GetMapping("/entrantes")
+    public String bebidas(){
+        return "Carta/Entrantes/entrantes";
     }
+    @GetMapping("/alcohol")
+    public String alcohol(){
+        return "Carta/Bebidas_Alcoholicas/fafadfda";
+    }
+
 }
