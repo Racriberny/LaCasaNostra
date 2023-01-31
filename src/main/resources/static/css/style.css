@@ -1,8 +1,6 @@
 body{
     background-color: #e37c07;
     font-family: cinnamon, serif;
-    cursor: pointer;
-
 }
 
 /**************** MenuDerecha ****************/
@@ -358,10 +356,10 @@ body{
     padding-right: 2%;
     padding-bottom: 2%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap:1.5rem;
 }
-/**Recuadro de dentro*/
+/***************Recuadro de dentro************/
 .gallery .box-container .box{
     height:25rem;
     flex:1 1 30rem;
