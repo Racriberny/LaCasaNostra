@@ -401,4 +401,7 @@ body{
 .gallery .box-container .box:hover .content{
     top:0;
 }
+#salsas{
+    display: none;
+}
 

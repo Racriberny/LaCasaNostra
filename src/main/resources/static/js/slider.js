@@ -41,3 +41,6 @@ btnLeft.addEventListener('click', function(){
 setInterval(function(){
     Next();
 }, 5000);
+function mostrar(){
+    document.getElementById('salsas').style.display = 'block';
+}
