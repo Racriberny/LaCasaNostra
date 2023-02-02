@@ -405,12 +405,12 @@ body{
     display: none;
 }
 .botonSalsas{
-    margin-left: 48%;
+    margin-left: 47.5%;
     margin-bottom: 2.5%;
-    font-size: 20pt;
+    font-size: 30pt;
     border: transparent;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    background: dodgerblue;
+    background: #0a0a0a;
     color: white;
     border-radius: 4px;
 }

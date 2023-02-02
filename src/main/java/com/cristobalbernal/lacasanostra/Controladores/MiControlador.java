@@ -35,4 +35,6 @@ public class MiControlador {
     public String pizzas(){return "Carta/Pizzas/Pizzas";}
     @GetMapping("/postres")
     public String postres(){return "Carta/Postres/Postres";}
+    @GetMapping("/parrilla")
+    public String parrilla(){return "Carta/Parrilla/Parrilla";}
 }
