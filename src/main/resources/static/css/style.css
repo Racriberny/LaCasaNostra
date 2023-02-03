@@ -14,7 +14,8 @@ body{
 }
 .rightNav > img{
     height: 100px;
-    width: 100px;
+    width: 130px;
+    padding-right: 1%;
 }
 .derecha {
     display: flex;
@@ -26,6 +27,12 @@ body{
     letter-spacing: .5px;
     padding: 0 1%; /* cambia la separacion*/
     cursor: pointer;
+}
+.derecha:hover{
+    background: #d17213;
+}
+#menu_link--select{
+    background:#d17213;
 }
 
 /**************** sliders  ****************/
@@ -254,7 +261,7 @@ body{
 .banner{
     padding-bottom: 5%;
     width: 100%;
-    height: 800px;
+    height: 600px;
     animation: banner 10s infinite linear alternate;
     background-size: 100% 100%;
     position: relative;
@@ -318,7 +325,6 @@ body{
     padding-bottom: 20px;
     width: 80%;
     margin: 0 auto;
-
 }
 .menuCarta{
     width: 100%;
@@ -330,6 +336,7 @@ body{
 }
 .menuCarta ul{
     list-style: none;
+
 }
 .menuCarta ul li{
     display: inline-block;
@@ -451,5 +458,64 @@ body{
     line-height: 18px;
     color: #b7b7b7;
     margin-top: 5px;
+}
+
+/*Nosotros*/
+
+.containerNosotros{
+    margin: auto;
+}
+.section_2{
+    width: 75%;
+    margin: auto;
+    padding: 75px 0;
+}
+.section_2_title{
+    font-family: cinnamon, serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin: 25px 0;
+}
+.us {
+    display: flex;
+}
+.us-text{
+    width: 60%;
+    padding: 0 10% 0 0;
+}
+.us-paragraph{
+    font-family: cinnamon, serif;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+
+}
+.paragraph-text{
+    margin: 12px 0;
+}
+.us-rs{
+    margin: 20px 0;
+}
+.us-rs-title{
+    font-family: cinnamon, serif;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.rs-icon{
+    margin: 15px 0;
+}
+.rs-link{
+    margin: 0 10px;
+}
+.us-img{
+    width: 40%;
+}
+.img-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 16px;
 }
 
