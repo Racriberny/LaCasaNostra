@@ -13,9 +13,11 @@ body{
     margin: 1%;
 }
 .rightNav > img{
-    height: 100px;
-    width: 130px;
     padding-right: 1%;
+}
+.imagen{
+    height: 100%;
+    width: 100%;
 }
 .derecha {
     display: flex;
@@ -25,7 +27,7 @@ body{
     color: #3c3c3c;
     font-size: 30pt;
     letter-spacing: .5px;
-    padding: 0 1%; /* cambia la separacion*/
+    padding: 0 0.5%; /* cambia la separacion*/
     cursor: pointer;
 }
 .derecha:hover{
@@ -246,6 +248,7 @@ body{
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+/* * menos de 800 px*/
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
@@ -253,6 +256,15 @@ body{
         grid-gap:30px;
         padding: 35px 0px;
     }
+    .derecha{
+        font-size: 15pt; !important;
+        border: 1px solid red;
+    }
+    .contenedorCarta{
+        font-size: 10pt !important;
+        border: 1px solid red;
+    }
+
 }
 /* carta*/
 .contenedor{
@@ -327,6 +339,7 @@ body{
     margin: 0 auto;
 }
 .menuCarta{
+    text-decoration: none;
     width: 100%;
     background: #ad5f10;
     text-align: center;
@@ -336,12 +349,12 @@ body{
 }
 .menuCarta ul{
     list-style: none;
-
 }
 .menuCarta ul li{
     display: inline-block;
-    padding: 20px;
+    padding-right: 15px;
     transition: all .3s ease;
+
 }
 .menuCarta ul li:hover{
     transform: scale(1.2);
@@ -349,7 +362,7 @@ body{
 }
 .menuCarta ul li a{
     color: #fff;
-
+    text-decoration: none;
 }
 
 /*****************+ Bebidas **************/
@@ -518,4 +531,3 @@ body{
     width: 100%;
     border-radius: 16px;
 }
-
